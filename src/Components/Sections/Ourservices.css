@@ -1,0 +1,15 @@
+@keyframes moveSvg {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animated-svg {
+    animation: moveSvg 3s ease infinite;
+}

@@ -54,7 +54,7 @@ function Footer() {
           value={email}
           onChange={handleEmailChange}
         />
-        <button className="absolute left-[50%] md:left-[45%] right-0 top-[-10px] bottom-0 z-1 transition transform hover:scale-110 duration-200">
+        <button className="absolute left-[50%] md:left-[45%] lg:left-[40%] right-0 top-[-10px] bottom-0 z-1 transition transform hover:scale-110 duration-200">
           <ArrowButton className="w-[170px] h-[60px] md:w-[220px] md:h-[70px]" />
         </button>
         {!isValidEmail && (
@@ -67,7 +67,7 @@ function Footer() {
       <div className="flex gap-x-4 text-[6px] sm:text-[8px] p-8 text-zinc-500 mt-12">
         {navitem.map((item) => (
           <a
-            className="font-bold p-1.5 hover:border border-solid border-gray-400 rounded-md transition duration-300 transform hover:scale-105"
+            className="font-bold p-1.5 hover:underline hover:scale-110 hover:text-gray-950 transition duration-300 hover:shadow-xl rounded-md hover:bg-slate-300"
             href={item.id}
             key={item.id}
           >
@@ -77,11 +77,11 @@ function Footer() {
       </div>
 
       <div className="flex mt-10 sm:ml-44 sm:mt-20 gap-x-10 max-w-max overflow-hidden">
-        <div className="flex gap-x-4">
+        <div className="flex gap-4">
           <a
             href="https://www.facebook.com/"
             target="_blank"
-            className="transition duration-300 transform hover:border border-solid border-slate-400 rounded-md hover:scale-105"
+            className="py-1 hover:scale-110 hover:text-gray-950 transition duration-300 hover:shadow-xl rounded-md hover:bg-slate-300"
           >
             <Fb style={{ width: "20px", height: "10px" }} />
           </a>
@@ -89,7 +89,7 @@ function Footer() {
           <a
             href="https://www.instagram.com/"
             target="_blank"
-            className="transition duration-300 transform hover:border border-solid border-slate-400 rounded-md hover:scale-105"
+            className="py-1 hover:scale-110 hover:text-gray-950 transition duration-300 hover:shadow-xl rounded-md hover:bg-slate-300"
           >
             <Insta style={{ width: "20px", height: "10px" }} />
           </a>
@@ -97,12 +97,12 @@ function Footer() {
           <a
             href="https://www.linkedin.com/home"
             target="_blank"
-            className="transition duration-300 transform hover:border border-solid border-slate-400 rounded-md hover:scale-105"
+            className="py-1 hover:scale-110 hover:text-gray-950 transition duration-300 hover:shadow-xl rounded-md hover:bg-slate-300"
           >
             <Linkdeln style={{ width: "20px", height: "10px" }} />
           </a>
         </div>
-        <div className="text-[8px] text-zinc-500">© 2002 Techwerte World.</div>
+        <div className="text-[8px] text-zinc-500 py-1">© 2002 Techwerte World.</div>
       </div>
     </div>
   );

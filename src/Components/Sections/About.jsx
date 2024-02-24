@@ -56,24 +56,24 @@ function About() {
               style={{ backgroundImage: `url(${firewater})` }}
             ></div>
             {/* Light background color for card content */}
-            <div className="text-left absolute bottom-0 left-0 right-0 p-4 bg-teal-900 bg-opacity-70 rounded-lg text-white">
-              <h2 className="text-3xl font-bold mb-2">Fire Water</h2>
+            <div className="text-left absolute bottom-0 left-0 right-0 p-4 lg:px-12 bg-teal-900 bg-opacity-70 rounded-lg text-white">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-2">Fire Water</h2>
               <p
-                className=" text-white text-[10px]"
+                className=" text-white text-[10px] lg:text-xs"
                 style={{ lineHeight: "1.1" }}
               >
                 we are all about we are all about to the fullest and all content
                 dining out or in dining out or in!
               </p>
               <div className="flex justify-between mt-2">
-                <div className="mt-4 text-[10px] ">
+                <div className="mt-4 text-[10px] lg:text-xs ">
                   <LocationOnIcon sx={{ fontSize: "1rem" }} />
                   <span className="pl-[2px]">Mumbai City</span>
                 </div>
-                <div>
+                <div className="">
                   <button
                     id="button"
-                    className="md:w-24 md:text-[10px] hover:bg-gradient-to-br from-orange-400 to-pink-500 transition transform hover:scale-105 duration-300 mt-2 text-teal-900 text-xs font-bold bg-white px-2 py-2 rounded-br-lg "
+                    className="md:w-24 md:text-[10px]  hover:bg-gradient-to-br from-orange-400 to-pink-500 transition transform hover:scale-105 duration-300 mt-2 text-teal-900 text-xs font-bold bg-white px-2 py-2  rounded-br-lg "
                   >
                     Book Now
                     <span className="pl-[4px]">
@@ -94,22 +94,22 @@ function About() {
               style={{ backgroundImage: `url(${wonton})` }}
             ></div>
             {/* Light background color for card content */}
-            <div className="text-left absolute bottom-0 left-0 right-0 p-4 bg-teal-900 bg-opacity-70 rounded-lg text-white">
-              <h2 className="text-3xl font-bold mb-2">The Wonton</h2>
+            <div className="text-left absolute bottom-0 left-0 right-0 p-4 lg:px-12 bg-teal-900 bg-opacity-70 rounded-lg text-white">
+              <h2 className="text-3xl lg:text-4xl  font-bold mb-2">The Wonton</h2>
               <p
-                className=" text-white text-[10px]"
+                className=" text-white text-[10px] lg:text-xs"
                 style={{ lineHeight: "1.1" }}
               >
                 we are all about we are all about to the fullest and all content
                 dining out or in dining out or in!
               </p>
               <div className="flex justify-between mt-2">
-                <div className="mt-4 text-[10px] ">
+                <div className="mt-4 text-[10px] lg:text-xs ">
                   <LocationOnIcon sx={{ fontSize: "1rem" }} />
                   <span className="pl-[4px]">Indore City</span>
                 </div>
                 <div>
-                  <button className=" md:w-24 md:text-[10px] hover:bg-gradient-to-br from-orange-400 to-pink-500 transition transform hover:scale-75 duration-300 mt-2 text-teal-900 text-xs font-bold bg-white px-2 py-2 rounded-br-lg">
+                  <button className=" md:w-24 md:text-[10px] hover:bg-gradient-to-br from-orange-400 to-pink-500 transition transform hover:scale-105 duration-300 mt-2 text-teal-900 text-xs font-bold bg-white px-2 py-2  rounded-br-lg">
                     Book Now
                     <span className="pl-[4px]">
                       <EastIcon />
